@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400px"
+    android:background="#ffffff">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_wx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="73px"
+        android:layout_marginTop="42px"
+        android:layout_toLeftOf="@+id/view1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="88px"
+            android:layout_height="88px"
+            android:src="@mipmap/icon_wxp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19px"
+            android:text="朋友圈"
+            android:textColor="#666"
+            android:textSize="26px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_wxp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73px"
+        android:layout_marginTop="42px"
+        android:layout_toRightOf="@+id/view1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="88px"
+            android:layout_height="88px"
+            android:src="@mipmap/icon_wx"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19px"
+            android:text="微信好友"
+            android:textColor="#666"
+            android:textSize="26px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71px"
+        android:background="@mipmap/icon_share_close"
+        android:gravity="center"/>
+</com.zhy.autolayout.AutoRelativeLayout>

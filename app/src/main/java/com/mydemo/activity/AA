@@ -1,0 +1,31 @@
+ try {
+            addActivity();
+            findView();
+            initView();
+            addListener();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void findView() {
+    }
+
+    private void initView() {
+    }
+
+    private void addListener() {
+    }
+
+
+    @Override
+    public void onClick(View view) {
+        try {
+            switch (view.getId()) {
+
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        }
+    }

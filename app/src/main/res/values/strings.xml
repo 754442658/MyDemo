@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyDemo</string>
+    <!-- XListView START -->
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">松开以刷新</string>
+    <string name="header_hint_refresh_loading">正在刷新</string>
+    <string name="header_hint_refresh_time">最近更新:</string>
+    <string name="footer_hint_load_normal">上拉以加载</string>
+    <string name="footer_hint_load_ready">松开以加载</string>
+    <string name="title_activity_base">Base</string>
+    <!-- XListView END -->
+</resources>

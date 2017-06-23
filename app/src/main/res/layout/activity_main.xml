@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="花开不倦只为蝶恋香，人逢知己余生无奢望"
+        android:textSize="32px"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="花开不倦只为蝶恋香，人逢知己余生无奢望"
+        android:textSize="32px"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="花开不倦只为蝶恋香，人逢知己余生无奢望"
+        android:textSize="32px"/>
+    <Button
+        android:id="@+id/bt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期选择"/>
+
+</com.zhy.autolayout.AutoLinearLayout>
